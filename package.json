@@ -1,0 +1,14 @@
+{
+  "name": "fs-ts",
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "dotnet tool restore",
+    "start": "dotnet fable src --watch --run vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.5.4"
+  }
+}
